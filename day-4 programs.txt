@@ -1,0 +1,102 @@
+day-4
+
+#program-1
+
+d={n:n*n for n in range (1,5)}
+print(d)
+
+
+#calculating product price for 5 units
+old={'rice':60,'dhaal':120,'oil':150}
+new={product:price*5 for (product,price)in old.items()}
+print(new)
+
+#program-2
+
+d={n:n*n for n in range (1,5)}
+print(d)
+
+
+#calculating product price for 5 units
+old={'rice':60,'dhaal':120,'oil':150}
+new={product:price*5 for (product,price)in old.items()}
+print(new)
+
+#program-3
+L1=['a','b','c']
+L2=[1,2,3]
+d={a:b for (a,b) in zip(L1,L2)}
+print(d)
+
+#program-4
+
+L1=['divya','pooji','ammu','sharmi','sana']
+
+L2=[100,200,300,400,500]
+
+#program-5
+
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.replace('oo','u'))
+print(s.strip())
+print(s.split('j'))
+print(s.center(10,'*'))
+print(s.count('o'))
+
+d={a:b for (a,b) in zip(L1,L2)}
+
+print(d)
+
+#program-6
+
+n=input("enter:")
+print("the string is :", n)
+x=input("enter x:")
+print("the char is :",x)
+chr=n.find(x)
+if x in (n):
+    print("char is present in string")
+else:
+    print("char is not present in string")
+
+#program-7
+
+st=input("enter the string:")
+char=input("enter the char:")
+a="yes" if char in st else "no"
+print(a)
+
+#program-8
+
+s=input("enter a string:")
+count=0
+for i in s:
+    if i==" ":
+        count+=1
+print(count)        
+
+
+#program-9
+
+L=['a','e','i','o','u','A','E','I','O','U']
+s=input("enter the string :")
+count=0
+for i in s:
+    if i in L:
+       count=count+1
+print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
