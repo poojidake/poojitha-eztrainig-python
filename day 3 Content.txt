@@ -1,0 +1,44 @@
+day-3 content
+
+s1={1,2,3}
+s2{4,5,6,1,2}
+1s1|s2=union ; returns={1,2,3,4,5,6,7}
+s1&s2=intersection;returns={1,2,}
+s1-s2 and s2-s1=difference;returns={3}AND {4,5,6}
+
+# SYMMETRIC DIFFERENCE
+it removes common elements and returns the un common elements 
+it is represented with { ^ }
+
+#Tuple
+( )
+*ordered
+*unchangble
+*can't include items 
+* can't fetch using t[index]
+*method finds the first occurence of specified value
+*the index() method raises an exception if value is not found
+#dictionary
+*it contains elements 2 units keys and values ,
+* keys must be unique
+functions
+piece()
+values()
+
+append()-add an to the end of the list
+extend()-add all elements of one list to another list-extend([5,6])
+insert()-insert an item at the defined index-insert(1,2)
+remove()-remove an from the list
+pop()-remove and returns an elements
+clear()-remove all items from the list
+index()-returns the index of the first matched item
+count()-returns the count of the elements 
+sort()-sorts in a ascending order
+reverse()-reverse the elements in the list
+copy()-returns copy of the list
+
+program-
+1.create a list with ten items print one by one 
+2.create a list with float numbers find and display sum and average of the list 
+3.after creating list with 6 elements from the us
+
